@@ -53,8 +53,8 @@ o.placeholder = "tun0"
 o.default     = "tun0"
 o.rmempty     = false
 
---------------------------------------
-network
+--------------------------------------network
+
 
 o = s:option(Value, "WANinterface", translate("WANinterface"))
 o.datatype    = "ShadowVPN"
