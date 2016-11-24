@@ -64,12 +64,24 @@ o = s:option(Value, "ifname", translate("ifname"))
 o.datatype    = "tun0"
 o.rmempty     = false
 
-o = s:option(Value, "WANinterface", translate("WANinterface"))
-o.datatype    = "port"
+o = s:option(Value, "vpnipaddr", translate("vpnipaddr"))
+o.datatype    = "10.7.0.2"
 o.rmempty     = false
 
-o = s:option(Value, "WANinterface", translate("WANinterface"))
-o.datatype    = "port"
+o = s:option(Value, "netmask", translate("netmask"))
+o.datatype    = "255.0.0.0"
+o.rmempty     = false
+
+o = s:option(Value, "gateway", translate("gateway"))
+o.datatype    = "10.7.0.1"
+o.rmempty     = false
+
+o = s:option(Value, "dns", translate("dns"))
+o.datatype    = "8.8.4.4"
+o.rmempty     = false
+
+o = s:option(Value, "metric", translate("metric"))
+o.datatype    = "50"
 o.rmempty     = false
 
 return m
