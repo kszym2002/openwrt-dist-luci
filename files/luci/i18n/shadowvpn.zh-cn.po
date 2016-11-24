@@ -7,7 +7,7 @@ msgstr "WAN接口名称"
 msgid "ifname"
 msgstr "ShadowVPN接口"
 
-msgid "ipaddr"
+msgid "vpnipaddr"
 msgstr "本地IP"
 
 msgid "netmask"
