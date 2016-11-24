@@ -1,26 +1,38 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
-msgid "Domestic Routes"
-msgstr "国内路由"
+msgid "WANinterface"
+msgstr "WAN接口名称"
+
+msgid "ifname"
+msgstr "ShadowVPN接口"
+
+msgid "ipaddr"
+msgstr "本地IP"
+
+msgid "netmask"
+msgstr "本地子网掩码"
+
+msgid "gateway"
+msgstr "本地网关"
 
 msgid "Enable"
 msgstr "启用"
 
-msgid "Foreign Routes"
-msgstr "国外路由"
-
 msgid "General Setting"
 msgstr "基本设置"
-
-msgid "Global Mode"
-msgstr "全局模式"
 
 msgid "Interface Name"
 msgstr "接口名称"
 
 msgid "Local Subnet"
 msgstr "本地子网"
+
+msgid "dns"
+msgstr "解析dns"
+
+msgid "metric"
+msgstr "网关跃点"
 
 msgid "NOT RUNNING"
 msgstr "未运行"
@@ -33,12 +45,6 @@ msgstr "密码"
 
 msgid "RUNNING"
 msgstr "运行中"
-
-msgid "Routing Configuration"
-msgstr "路由设置"
-
-msgid "Routing File"
-msgstr "路由文件"
 
 msgid "Routing Mode"
 msgstr "路由模式"
