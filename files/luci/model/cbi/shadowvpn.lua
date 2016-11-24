@@ -53,6 +53,23 @@ o.placeholder = "tun0"
 o.default     = "tun0"
 o.rmempty     = false
 
+--------------------------------------
+network
 
+o = s:option(Value, "WANinterface", translate("WANinterface"))
+o.datatype    = "ShadowVPN"
+o.rmempty     = false
+
+o = s:option(Value, "ifname", translate("ifname"))
+o.datatype    = "tun0"
+o.rmempty     = false
+
+o = s:option(Value, "WANinterface", translate("WANinterface"))
+o.datatype    = "port"
+o.rmempty     = false
+
+o = s:option(Value, "WANinterface", translate("WANinterface"))
+o.datatype    = "port"
+o.rmempty     = false
 
 return m
