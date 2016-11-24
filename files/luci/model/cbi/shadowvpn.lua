@@ -53,20 +53,6 @@ o.placeholder = "tun0"
 o.default     = "tun0"
 o.rmempty     = false
 
--- Route Configuration
-s = m:section(TypedSection, "shadowvpn", translate("Routing Configuration"))
-s.anonymous   = true
 
-o = s:option(ListValue, "route_mode", translate("Routing Mode"))
-o:value("0", translate("Global Mode"))
-o:value("1", translate("Domestic Routes"))
-o:value("2", translate("Foreign Routes"))
-o.default     = "0"
-o.rmempty     = false
-
-o = s:option(Value, "route_file", translate("Routing File"))
-o.datatype    = "file"
-o:depends("route_mode", "1")
-o:depends("route_mode", "2")
 
 return m
